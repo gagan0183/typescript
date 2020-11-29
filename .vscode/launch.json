@@ -17,11 +17,15 @@
             ]
         },
         {
-            "name": "Attach to Chrome",
+            "name": "Launch chrome",
             "port": 9222,
-            "request": "attach",
+            "request": "launch",
             "type": "pwa-chrome",
-            "webRoot": "${workspaceFolder}"
+            "url": "file:///Users/gagan/Documents/learn/typescript/index.html",
+            "runtimeArgs": [
+                "--new-window",
+                "--remote-debugging-port=9222"
+            ]
         }
     ]
 }
