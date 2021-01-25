@@ -16,16 +16,5 @@
                 "${workspaceFolder}/**/*.js"
             ]
         },
-        {
-            "name": "Launch chrome",
-            "port": 9222,
-            "request": "launch",
-            "type": "pwa-chrome",
-            "url": "file:///Users/gagan/Documents/learn/typescript/index.html",
-            "runtimeArgs": [
-                "--new-window",
-                "--remote-debugging-port=9222"
-            ]
-        }
     ]
 }
