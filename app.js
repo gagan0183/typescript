@@ -8,8 +8,8 @@
 // person.canada = [1, 'EDMONTON', ''];
 var Role;
 (function (Role) {
-    Role[Role["ADMIN"] = 0] = "ADMIN";
-    Role[Role["EDITOR"] = 1] = "EDITOR";
-    Role[Role["VIEWER"] = 2] = "VIEWER";
+    Role["ADMIN"] = "ADMIN";
+    Role["EDITOR"] = "EDITOR";
+    Role["VIEWER"] = "VIEWER";
 })(Role || (Role = {}));
 console.log(Role.ADMIN);

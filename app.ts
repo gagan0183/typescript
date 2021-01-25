@@ -8,6 +8,6 @@
 
 // person.canada = [1, 'EDMONTON', ''];
 
-enum Role { ADMIN, EDITOR, VIEWER}
+enum Role { ADMIN = 'ADMIN', EDITOR = 'EDITOR', VIEWER = 'VIEWER'}
 
 console.log(Role.ADMIN)
