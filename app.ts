@@ -10,4 +10,4 @@
 
 enum Role { ADMIN = 'ADMIN', EDITOR = 'EDITOR', VIEWER = 'VIEWER'}
 
-console.log(Role.ADMIN)
+console.log(Role.N)
